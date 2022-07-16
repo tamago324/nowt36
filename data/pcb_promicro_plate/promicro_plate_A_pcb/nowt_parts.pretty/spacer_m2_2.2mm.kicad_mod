@@ -1,0 +1,16 @@
+(footprint "spacer_m2_2.2mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 5F8C61B2)
+  (descr "Mounting Hole 2.2mm, no annular, M2")
+  (tags "mounting hole 2.2mm no annular m2")
+  (attr exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "Ref**" (at 0 -1.775) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 646691df-229a-47f0-9e79-1f381f118b49)
+  )
+  (fp_text value "Val**" (at 0 1.975) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 8bece752-e151-4687-bd08-f40f5b548371)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers F&B.Cu *.Mask) (tstamp 263fad3b-762a-45c8-93f4-26b15ee16faa))
+)
