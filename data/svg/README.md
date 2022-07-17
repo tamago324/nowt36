@@ -17,3 +17,8 @@ svgファイル
 | middle_lower_left.svg           | ミドルプレート (下) を中央で分割したもの |
 | middle_lower_right.svg          | ミドルプレート (下) を中央で分割したもの |
 | 313x255_bottom_middle_plate.svg | ミドルプレート                           |
+
+
+| ファイル名            | 説明                 |
+|-----------------------|----------------------|
+| silicon_cut_sheet.svg | シリコンカットシート |
