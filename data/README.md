@@ -44,4 +44,6 @@
 
 | パーツ                 | ファイル名                  |
 |------------------------|-----------------------------|
-| シリコンカット用シート | `svg/silicon_cut_sheet.svg` |
+| シリコンカットシート | `silicon_cut_sheet/silicon_cut_sheet.svg`、`silicon_cut_sheet/silicon_cut_sheet.pdf` |
+
+シリコンカットシート
