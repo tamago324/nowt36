@@ -37,7 +37,7 @@ nowt36 のビルドガイドです。
 | トッププレート                 | 1枚         | スイッチをはめるFR4プレート                                                                                                                                                   |
 | ボトムプレート                 | 1枚         | ボトムアクリルプレート                                                                                                                                                        |
 | ミドルプレート (上)            | 1枚         | トッププレートとPCBの間に挟むアクリルプレート。 ([data/svg/middle_upper.svg](/data/svg/middle_upper.svg))                                                                     |
-| ミドルプレート (下)            | 1枚         | PCBとボトムプレートの間に挟むアクリルプレート。 ([data/svg/middle_bottom.svg](/data/svg/middle_bottom.svg))                                                                   |
+| ミドルプレート (下)            | 1枚         | PCBとボトムプレートの間に挟むアクリルプレート。 ([data/svg/middle_lower.svg](/data/svg/middle_lower.svg))                                                                   |
 | シリコンシート 0.5mm           | 1枚         | トッププレートとミドルプレート (上) の間に挟むシリコンシート。[モノタロウなどで購入](https://www.monotaro.com/g/00279214/?monotaroNo=36295253)                                                        |
 | シリコンカットサポートシート   | 1枚         | シリコンシートを切り抜くときに使用する紙。([data/silicon_cut_sheet/silicon_cut_sheet.svg](/data/silicon_cut_sheet/silicon_cut_sheet.svg))                                     |
 | ProMicro 保護プレート          | 4枚         | ProMicro 保護プレート。4種類あります。                                                                                                                                        |
