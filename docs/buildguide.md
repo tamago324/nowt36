@@ -31,24 +31,24 @@ nowt36 のビルドガイドです。
 
 ### キットに含まれるもの
 
-| 名前                           | 数量        | 備考                                                                                                                                                                          |
-|--------------------------------|-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PCB                            | 1枚         | メインPCB                                                                                                                                                                     |
-| トッププレート                 | 1枚         | スイッチをはめるFR4プレート                                                                                                                                                   |
-| ボトムプレート                 | 1枚         | ボトムアクリルプレート                                                                                                                                                        |
-| ミドルプレート (上)            | 1枚         | トッププレートとPCBの間に挟むアクリルプレート。 ([data/svg/middle_upper.svg](/data/svg/middle_upper.svg))                                                                     |
-| ミドルプレート (下)            | 1枚         | PCBとボトムプレートの間に挟むアクリルプレート。 ([data/svg/middle_lower.svg](/data/svg/middle_lower.svg))                                                                   |
-| シリコンシート 0.5mm           | 1枚         | トッププレートとミドルプレート (上) の間に挟むシリコンシート。[モノタロウなどで購入](https://www.monotaro.com/g/00279214/?monotaroNo=36295253)                                                        |
-| シリコンカットサポートシート   | 1枚         | シリコンシートを切り抜くときに使用する紙。([data/silicon_cut_sheet/silicon_cut_sheet.svg](/data/silicon_cut_sheet/silicon_cut_sheet.svg))                                     |
-| ProMicro 保護プレート          | 4枚         | ProMicro 保護プレート。4種類あります。                                                                                                                                        |
-| スイッチソケット               | 36個        | [Kailh Switch Socket](https://shop.yushakobo.jp/products/a01ps?pr_prod_strat=copurchase&pr_rec_id=1b68feea8&pr_rec_pid=6055660945569&pr_ref_pid=6055716520097&pr_seq=uniform) |
-| ダイオード                     | 36個 + 予備 | [1N4148W](https://shop.yushakobo.jp/collections/all-keyboard-parts/products/a0800di-02-100)                                                                                   |
-| リセットスイッチ               | 1個         | [タクトスイッチ](https://shop.yushakobo.jp/collections/all-keyboard-parts/products/a0800ts-01-1?variant=37665574977697)                                                                 |
-| M2 スペーサー 8mm (短いもの)   | 10個        | トッププレートとボトムプレートを固定するためのスペーサー                                                                                                                      |
-| M2 スペーサー 9.5mm (長いもの) | 4個         | ProMicro保護プレートとボトムプレートを固定するためのスペーサー                                                                                                                |
-| M2 ねじ 5mm                    | 28個 + 予備 | スペーサーを固定するネジ                                                                                                                                                      |
-| アンダーグロー用LED            | 10個        | [WS2812B](https://shop.yushakobo.jp/products/a0800ws-01-10?variant=37664848969889)                                                                                                                                                                       |
-| ゴム足                         | 10個        | すべり止め用のゴム足                                                                                                                                                          |
+| No. | 名前                           | 数量        | 備考                                                                                                                                                                          |
+|-----|--------------------------------|-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1   | PCB                            | 1枚         | メインPCB                                                                                                                                                                     |
+| 2   | トッププレート                 | 1枚         | スイッチをはめるFR4プレート                                                                                                                                                   |
+| 3   | ボトムプレート                 | 1枚         | ボトムアクリルプレート                                                                                                                                                        |
+| 4   | ミドルプレート (上)            | 1枚         | トッププレートとPCBの間に挟むアクリルプレート。 ([data/svg/middle_upper.svg](/data/svg/middle_upper.svg))                                                                     |
+| 5   | ミドルプレート (下)            | 1枚         | PCBとボトムプレートの間に挟むアクリルプレート。 ([data/svg/middle_lower.svg](/data/svg/middle_lower.svg))                                                                     |
+| 6   | シリコンシート 0.5mm           | 1枚         | トッププレートとミドルプレート (上) の間に挟むシリコンシート。[モノタロウなどで購入](https://www.monotaro.com/g/00279214/?monotaroNo=36295253)                                |
+| 7   | シリコンカットサポートシート   | 1枚         | シリコンシートを切り抜くときに使用する紙。([data/silicon_cut_sheet/silicon_cut_sheet.svg](/data/silicon_cut_sheet/silicon_cut_sheet.svg))                                     |
+| 8   | ProMicro 保護プレート          | 4枚         | ProMicro 保護プレート。4種類あります。                                                                                                                                        |
+| 9   | スイッチソケット               | 36個        | [Kailh Switch Socket](https://shop.yushakobo.jp/products/a01ps?pr_prod_strat=copurchase&pr_rec_id=1b68feea8&pr_rec_pid=6055660945569&pr_ref_pid=6055716520097&pr_seq=uniform) |
+| 10  | ダイオード                     | 36個 + 予備 | [1N4148W](https://shop.yushakobo.jp/collections/all-keyboard-parts/products/a0800di-02-100)                                                                                   |
+| 11  | リセットスイッチ               | 1個         | [タクトスイッチ](https://shop.yushakobo.jp/collections/all-keyboard-parts/products/a0800ts-01-1?variant=37665574977697)                                                       |
+| 12  | M2 スペーサー 8mm (短いもの)   | 10個        | トッププレートとボトムプレートを固定するためのスペーサー                                                                                                                      |
+| 13  | M2 スペーサー 9.5mm (長いもの) | 4個         | ProMicro保護プレートとボトムプレートを固定するためのスペーサー                                                                                                                |
+| 14  | M2 ねじ 5mm                    | 28個 + 予備 | スペーサーを固定するネジ                                                                                                                                                      |
+| 15  | アンダーグロー用LED            | 10個        | [WS2812B](https://shop.yushakobo.jp/products/a0800ws-01-10?variant=37664848969889)                                                                                            |
+| 16  | ゴム足                         | 10個        | すべり止め用のゴム足                                                                                                                                                          |
 
 ## キット以外に必要なもの
 
