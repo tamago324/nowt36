@@ -22,3 +22,8 @@ svgファイル
 | ファイル名            | 説明                 |
 |-----------------------|----------------------|
 | silicon_cut_sheet.svg | シリコンカットシート |
+
+
+| ファイル名            | 説明                 |
+|-----------------------|----------------------|
+| yushakobo/Laser_A4_template_inkscape_middle_lower.svg | 遊舎工房の発注用 (bottom + middle_lower)  |
