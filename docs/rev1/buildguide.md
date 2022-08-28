@@ -72,7 +72,7 @@ nowt36 のビルドガイドです。
 | シリコンシート 0.5mm           | 1枚         | トッププレートとミドルプレート (上) の間に挟むシリコンシート。[モノタロウなどで購入](https://www.monotaro.com/g/00279214/?monotaroNo=36295253)                                |
 | シリコンカットサポートシート   | 1枚         | シリコンシートを切り抜くときに使用する紙。([こちら](/data/rev1/silicon_cut_sheet/silicon_cut_sheet.svg)を印刷します。)                                     |
 
-※1 [こちら](/docs/rev1/data/Laser_A4_inkscape_nowt36_middle_plate.zip?rawmtrue)のデータを遊舎工房で発注可能です。もとのデータは [こちら](/data/rev1/plate_data/middle_plate) にあるため、自由に加工しAnymanyさんのような他の業者に発注することも可能です。
+※1 [こちら](/docs/rev1/data/Laser_A4_inkscape_nowt36_middle_plate.zip?raw=true)のデータを遊舎工房で発注可能です。もとのデータは [こちら](/data/rev1/plate_data/middle_plate) にあるため、自由に加工しAnymanyさんのような他の業者に発注することも可能です。
 
 ## 組み立て順序の確認
 
