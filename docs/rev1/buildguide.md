@@ -66,10 +66,12 @@ nowt36 のビルドガイドです。
 
 | 名前                     | 数量 | 備考 |
 |--------------------------|------|------|
-| ミドルプレート (上)            | 1枚         | トッププレートとPCBの間に挟むアクリルプレート。 ([data/rev1/svg/middle_upper.svg](/data/rev1/svg/middle_upper.svg))                                                                     |
-| ミドルプレート (下)            | 1枚         | PCBとボトムプレートの間に挟むアクリルプレート。 ([data/rev1/svg/middle_lower.svg](/data/rev1/svg/middle_lower.svg))                                                                     |
+| ミドルプレート (上)            | 1枚         | ※1                                                                     |
+| ミドルプレート (下)            | 1枚         | ※1                                                                     |
 | シリコンシート 0.5mm           | 1枚         | トッププレートとミドルプレート (上) の間に挟むシリコンシート。[モノタロウなどで購入](https://www.monotaro.com/g/00279214/?monotaroNo=36295253)                                |
-| シリコンカットサポートシート   | 1枚         | シリコンシートを切り抜くときに使用する紙。([こちら](/data/rev1/silicon_cut_sheet/silicon_cut_sheet.svg)を印刷します。)                                     |
+| シリコンカットサポートシート   | 1枚         | シリコンシートを切り抜くときに使用する紙。([こちら](data/rev1/silicon_cut_sheet/silicon_cut_sheet.svg)を印刷します。)                                     |
+
+※1 [こちら](docs/rev1/data/Laser_A4_inkscape_nowt36_middle_plate.zip)のデータを遊舎工房で発注可能です。もとのデータは [こちら](data/rev1/plate_data/middle_plate/middle_lower_left.svg) にあるため、自由に加工し発注することも可能です。
 
 ## 組み立て順序の確認
 
@@ -193,7 +195,7 @@ PCBの表に出ている足をはんだ付けします。
 
 <details><summary>手順</summary><div>
 
-[シリコンカットサポートシート](data/rev1/silicon_cut_sheet/silicon_cut_sheet.svg) をA4用紙に印刷します。
+[シリコンカットサポートシート](data/rev1/silicon_cut_sheet/silicon_cut_sheet.svg) をA4用紙で印刷します。
 
 以下の手順でミドルプレート (上) とトッププレートの間にシリコンシートを挟みます。  
 最初にシリコンカットサポートシート がミドルプレート (上) と同じサイズで印刷されていることを確認します。  
