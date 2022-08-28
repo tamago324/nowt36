@@ -66,10 +66,10 @@ nowt36 のビルドガイドです。
 
 | 名前                     | 数量 | 備考 |
 |--------------------------|------|------|
-| ミドルプレート (上)            | 1枚         | トッププレートとPCBの間に挟むアクリルプレート。 ([data/svg/middle_upper.svg](/data/svg/middle_upper.svg))                                                                     |
-| ミドルプレート (下)            | 1枚         | PCBとボトムプレートの間に挟むアクリルプレート。 ([data/svg/middle_lower.svg](/data/svg/middle_lower.svg))                                                                     |
+| ミドルプレート (上)            | 1枚         | トッププレートとPCBの間に挟むアクリルプレート。 ([data/rev1/svg/middle_upper.svg](/data/rev1/svg/middle_upper.svg))                                                                     |
+| ミドルプレート (下)            | 1枚         | PCBとボトムプレートの間に挟むアクリルプレート。 ([data/rev1/svg/middle_lower.svg](/data/rev1/svg/middle_lower.svg))                                                                     |
 | シリコンシート 0.5mm           | 1枚         | トッププレートとミドルプレート (上) の間に挟むシリコンシート。[モノタロウなどで購入](https://www.monotaro.com/g/00279214/?monotaroNo=36295253)                                |
-| シリコンカットサポートシート   | 1枚         | シリコンシートを切り抜くときに使用する紙。([こちら](/data/silicon_cut_sheet/silicon_cut_sheet.svg)を印刷します。)                                     |
+| シリコンカットサポートシート   | 1枚         | シリコンシートを切り抜くときに使用する紙。([こちら](/data/rev1/silicon_cut_sheet/silicon_cut_sheet.svg)を印刷します。)                                     |
 
 ## 組み立て順序の確認
 
