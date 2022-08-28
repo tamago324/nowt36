@@ -27,7 +27,7 @@ nowt36 のビルドガイドです。
   * [12. ProMicro保護プレートを取り付ける](#12-promicro保護プレートを取り付ける)
   * [13. ゴム足を取り付ける](#13-ゴム足を取り付ける)
   * [14. キーキャップを取り付ける](#14-キーキャップを取り付ける)
-  * [キーマップを変更する](#キーマップを変更する)
+  * [15. キーマップを変更する](#15-キーマップを変更する)
 * [最後に](#最後に)
 
 <!-- vim-markdown-toc -->
@@ -70,9 +70,9 @@ nowt36 のビルドガイドです。
 | ミドルプレート (上)            | 1枚         | ※1                                                                     |
 | ミドルプレート (下)            | 1枚         | ※1                                                                     |
 | シリコンシート 0.5mm           | 1枚         | トッププレートとミドルプレート (上) の間に挟むシリコンシート。[モノタロウなどで購入](https://www.monotaro.com/g/00279214/?monotaroNo=36295253)                                |
-| シリコンカットサポートシート   | 1枚         | シリコンシートを切り抜くときに使用する紙。([こちら](data/rev1/silicon_cut_sheet/silicon_cut_sheet.svg)を印刷します。)                                     |
+| シリコンカットサポートシート   | 1枚         | シリコンシートを切り抜くときに使用する紙。([こちら](/data/rev1/silicon_cut_sheet/silicon_cut_sheet.svg)を印刷します。)                                     |
 
-※1 [こちら](docs/rev1/data/Laser_A4_inkscape_nowt36_middle_plate.zip)のデータを遊舎工房で発注可能です。もとのデータは [こちら](data/rev1/plate_data/middle_plate/middle_lower_left.svg) にあるため、自由に加工し発注することも可能です。
+※1 [こちら](/docs/rev1/data/Laser_A4_inkscape_nowt36_middle_plate.zip)のデータを遊舎工房で発注可能です。もとのデータは [こちら](/data/rev1/plate_data/middle_plate) にあるため、自由に加工し発注することも可能です。
 
 ## 組み立て順序の確認
 
@@ -91,6 +91,7 @@ nowt36 のビルドガイドです。
 12. ProMicro保護プレートを取り付ける
 13. ゴム足を取り付ける
 14. キーキャップを取り付ける
+15. キーマップを変更する
 
 
 ## 組み立て
@@ -265,7 +266,7 @@ PCBの表に出ている足をはんだ付けします。
 
 <details><summary>手順</summary><div>
 
-[シリコンカットサポートシート](data/rev1/silicon_cut_sheet/silicon_cut_sheet.svg) をA4用紙で印刷します。
+[シリコンカットサポートシート](/data/rev1/silicon_cut_sheet/silicon_cut_sheet.svg) をA4用紙で印刷します。
 
 以下の手順でミドルプレート (上) とトッププレートの間にシリコンシートを挟みます。  
 最初にシリコンカットサポートシート がミドルプレート (上) と同じサイズで印刷されていることを確認します。  
@@ -353,12 +354,12 @@ ProMicro 保護プレートを載せ、ネジ止めします。
 ![](assets/14_1.JPG)
 
 
-### キーマップを変更する
+### 15. キーマップを変更する
 
 Remap か QMK を使用してキーマップを変更可能です。
 
 * Remap の場合: キーボードカタログの nowt36 のページで設定可能です。
-* QMK の場合: tamago324/qmk_firmware の nowt36 ブランチの keyboards/tamago324/nowt36 にファームウェアがあります。
+* QMK の場合: [tamago324/qmk_firmware](https://github.com/tamago324/qmk_firmware/tree/nowt36) の `nowt36` ブランチの `keyboards/tamago324/nowt36` にファームウェアがあります。
 
 ## 最後に
 
