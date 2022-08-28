@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "nowt_parts")(type "KiCad")(uri "${KIPRJMOD}/nowt_parts.pretty")(options "")(descr ""))
-)
