@@ -164,7 +164,7 @@ https://remap-keys.app/ にアクセスします。
 
 `EffectMode` を `Solid color` を選択します。
 
-![](assets/1_12.png)
+![](assets/1_13.png)
 
 
 以上で、LED の確認のためのファームウェアの書き込みは完了です。
