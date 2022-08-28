@@ -100,6 +100,8 @@ nowt36 のビルドガイドです。
 REMAP か [QMK](https://github.com/tamago324/qmk_firmware/tree/nowt36/keyboards/tamago324/nowt36) を使用して、ファームウェアを書き込みます。
 LEDをはんだ付けする前に Remap でファームウェアを書き込んでおくことで、LED の取付時に1つ1つ確認することができます。
 
+<details><summary>Remap で書き込む場合</summary><div>
+
 #### Remap で書き込む場合
 
 LED を取り付ける場合、Remap でファームウェアを書き込み、LED機能をONにしておくとLEDが正しくはんだ付けできているかの確認が簡単になるのでおすすめです。
@@ -168,6 +170,10 @@ https://remap-keys.app/ にアクセスします。
 
 
 以上で、LED の確認のためのファームウェアの書き込みは完了です。
+
+
+</div></details>
+
 
 
 ### 2. (オプション) プレートの側面をペンで塗る
@@ -348,6 +354,11 @@ ProMicro 保護プレートを載せ、ネジ止めします。
 
 
 ### キーマップを変更する
+
+Remap か QMK を使用してキーマップを変更可能です。
+
+* Remap の場合: キーボードカタログの nowt36 のページで設定可能です。
+* QMK の場合: tamago324/qmk_firmware の nowt36 ブランチの keyboards/tamago324/nowt36 にファームウェアがあります。
 
 ## 最後に
 
