@@ -13,6 +13,7 @@ nowt36 のビルドガイドです。
 * [組み立て](#組み立て)
   * [1. ファームウェアの書き込み](#1-ファームウェアの書き込み)
     * [Remap で書き込む場合](#remap-で書き込む場合)
+    * [LED の動作確認のため、LED機能をONにします。](#led-の動作確認のためled機能をonにします)
   * [2. (オプション) プレートの側面をペンで塗る](#2-オプション-プレートの側面をペンで塗る)
   * [3. (オプション) LEDの取り付け](#3-オプション-ledの取り付け)
   * [4. ダイオードのはんだ付け](#4-ダイオードのはんだ付け)
@@ -99,13 +100,74 @@ nowt36 のビルドガイドです。
 REMAP か [QMK](https://github.com/tamago324/qmk_firmware/tree/nowt36/keyboards/tamago324/nowt36) を使用して、ファームウェアを書き込みます。
 LEDをはんだ付けする前に Remap でファームウェアを書き込んでおくことで、LED の取付時に1つ1つ確認することができます。
 
-また、LED を取り付ける場合、Lightning ON を設定しておきます。
-
 #### Remap で書き込む場合
 
-ファームウェアを書き込む
+LED を取り付ける場合、Remap でファームウェアを書き込み、LED機能をONにしておくとLEDが正しくはんだ付けできているかの確認が簡単になるのでおすすめです。
 
-TODO: 画像を貼る or サリチル酸さんの記事を貼る
+> サリチル酸さんの[記事](https://salicylic-acid3.hatenablog.com/entry/remap-manual#:~:text=%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%EF%BC%81-,%E3%83%95%E3%82%A1%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%A7%E3%82%A2%E3%82%92%E6%9B%B8%E3%81%8D%E8%BE%BC%E3%82%80,-%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0%E6%A9%9F%E8%83%BD)を参考に手順を記述しています。
+
+https://remap-keys.app/ にアクセスします。 
+
+
+KEYBOARD CATALOG をクリックします。
+
+![](assets/1_1.png)
+
+Keyboard name の入力欄に `nowt36` と入力し、Search をクリックし、検索結果の nowt36 をクリックします。
+
+![](assets/1_2.png)
+
+FIRMWARE をクリックします。
+
+![](assets/1_3.png)
+
+FLASH をクリック
+
+![](assets/1_4.png)
+
+ダイアログが表示されたら FLASH をクリックします。
+
+![](assets/1_5.png)
+
+remap-keys.app がシリアルポートへの接続を要求しています という表示が出たら、ピンセットでProMicro の`GND`と`RST`を2回素早く押します。
+
+![](assets/1_6.png)
+
+ProMicro が表示されたら、それを選択し、接続ボタンをクリックします。  
+
+![](assets/1_7.png)
+
+少し時間が立つとファームウェアの書き込みが完了します。
+
+![](assets/1_8.png)
+
+
+#### LED の動作確認のため、LED機能をONにします。
+
+https://remap-keys.app/ にアクセスします。
+
+`START REMAP FOR YOUR KEYBOARD` をクリックします。
+
+![](assets/1_9.png)
+
+`+ KEYBAORD` をクリックします。
+
+![](assets/1_10.png)
+
+`tamago324 nowt36` をクリックします。
+
+![](assets/1_11.png)
+
+`Lightning` をクリック、
+
+![](assets/1_12.png)
+
+`EffectMode` を `Solid color` を選択します。
+
+![](assets/1_12.png)
+
+
+以上で、LED の確認のためのファームウェアの書き込みは完了です。
 
 
 ### 2. (オプション) プレートの側面をペンで塗る
@@ -140,6 +202,8 @@ PCBのシルクの角 と LEDのかけている部分が同じ位置になるよ
 
 4箇所はんだ付けし終わったらUSBを接続し、LEDが光ることを確認します。
 (※ REMAP で LED をONにしておくことで簡単に光ることが確認できます。)
+
+また、LED をはんだ付けするときはUSBケーブルを外してください。
 
 ![](assets/3_5.JPEG)
 
