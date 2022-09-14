@@ -10,7 +10,7 @@
 * アンダーグロー対応 (オプション)
 
 
-![](./docs/rev1/assets/readme_nowt36_1.jpeg)
+![](./docs/rev1/assets/readme_nowt36_3.jpeg)
 
 ![](./docs/rev1/assets/readme_nowt36_2.jpeg)
 
